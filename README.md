@@ -10,6 +10,7 @@ This repository contains various Python topics and examples for learning purpose
 ### Duck Typing
 - **[birds_v1.py](Duck_Typing/birds_v1.py)**: Basic implementation of duck typing.
 - **[birds_v2.py](Duck_Typing/birds_v2.py)**: Advanced implementation of duck typing.
+- **[birds_v3.py](Duck_Typing/birds_v3.py)**: Using Abstract Base Classes
 - **[main.py](Duck_Typing/main.py)**: Example usage of duck typing.
 
 ### Structural Pattern Matching
