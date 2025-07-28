@@ -25,3 +25,7 @@ This repository contains various Python topics and examples for learning purpose
 - **[global_keyword.py](legb_rule/global_keyword.py)**: Demonstrates the use of the `global` keyword.
 - **[nonlocal_keyword.py](legb_rule/nonlocal_keyword.py)**: Demonstrates the use of the `nonlocal` keyword.
 - **[pitfalls_and_best_practices.py](legb_rule/pitfalls_and_best_practices.py)**: Common pitfalls and best practices related to variable scope.
+
+### Thread Safety
+- **[race_conditions.py](thread_safety/race_conditions.py)**: Demonstrates how threads work and how race conditions can occur when multiple threads access shared data without proper synchronization.
+- **[solving_with_locks.py](thread_safety/solving_with_locks.py)**: Shows how to use threading.Lock to protect shared resources and prevent race conditions, with a comparison of results with and without locks.
