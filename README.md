@@ -29,3 +29,4 @@ This repository contains various Python topics and examples for learning purpose
 ### Thread Safety
 - **[race_conditions.py](thread_safety/race_conditions.py)**: Demonstrates how threads work and how race conditions can occur when multiple threads access shared data without proper synchronization.
 - **[solving_with_locks.py](thread_safety/solving_with_locks.py)**: Shows how to use threading.Lock to protect shared resources and prevent race conditions, with a comparison of results with and without locks.
+- **[avoiding_deadlocks_with_rlock.py](thread_safety/avoiding_deadlocks_with_rlock.py)**: Demonstrates how deadlocks can occur with regular locks and how to use threading.RLock (reentrant lock) to avoid them, with practical examples comparing Lock vs RLock.
